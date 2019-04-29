@@ -44,3 +44,57 @@
    44  git push origin
    45  history
    46  history > history.txt
+    1  apt-get update | apt-get upfrade -y
+    2  apt-get update | apt-get upgrade -y
+    3  apt-get install mc -y
+    4  apt-get install openjdk-8-jre
+    5  shutdown -h now
+    6  wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+    7  sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+    8  sudo apt-get update
+    9  sudo apt-get install jenkins
+   10  cat /var/lib/jenkins/secrets/initialAdminPassword
+   11  service jenkins status
+   12  service jenkins restart
+   13  service jenkins status
+   14  shutdown -h now
+   15  sirvice jenkins statua
+   16  sirvice jenkins status
+   17  service jenkins status
+   18  shutdown -h now
+   19  mc
+   20  ssh 192.168.0.140
+   21  ssh bell@192.168.0.140
+   22  mc
+   23  shutdown -h now
+   24  wget http://192.168.0.105:8080/jnlpJars/jenkins-cli.jar
+   25  java -jar jenkins-cli.jar -auth bell:m6ib8h
+   26  java -jar jenkins-cli.jar -auth bell:m6ib8h -s http://localhost:8080 who-am-i
+   27  exit
+   28  git
+   29  git remote -1
+   30  git remote -v
+   31  git remote set-url origin git@github.com:Blyadinskiy/myprojeck1.git
+   32  git remote -v
+   33  ll
+   34  git status
+   35  echo "jdashfakjsdhfkjsd jksdhfjkalsd kadsjdlkas" > file2.txt
+   36  ll
+   37  git status
+   38  git add .
+   39  git commit -m "ssh push test"
+   40  git push origin
+   41  echo "sdfhksdaj ja\dfhnkjsda kjhdlk" > file3.txt
+   42  git add .
+   43  git commit -m "stet"
+   44  git push origin
+   45  history
+   46  history > history.txt
+   47  mc
+   48  git status
+   49  git add history.txt 
+   50  git commit "history"
+   51  git commit -m "history"
+   52  git push origin
+   53  exit
+   54  history >> history.txt 
